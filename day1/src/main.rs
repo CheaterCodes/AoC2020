@@ -31,6 +31,18 @@ fn main() {
                 println!("{} + {} = 2020", number1, number2);
                 println!("{} x {} = {}", number1, number2, number1 * number2)
             }
-        } 
+        }
+    }
+
+    // Simply iterate thrice. Lazy solution with O(n3).
+    for number1 in &numbers {
+        for number2 in &numbers {
+            for number3 in &numbers {
+                if number1 + number2 + number3 == 2020 {
+                    println!("{} + {} + {} = 2020", number1, number2, number3);
+                    println!("{} x {} x {} = {}", number1, number2, number3, number1 * number2 * number3);
+                }
+            }
+        }
     }
 }
