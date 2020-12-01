@@ -8,3 +8,5 @@ Quite a simple Task.
 Since the list of numbers is decently small I took the lazy approach and just did two (or three) nested for loops.
 Works fine, not very optimal.
 Wow, Day 1 and I'm alreay lazy :D
+
+Edit: Ok, stop lazy. I added an optimal solution for Part One at least.
