@@ -23,3 +23,16 @@ This time, there's no complexity analysis.
 Any algorithm should solve this problem in linear time.
 One thing I could possibly imporve is change to a stream approach for puzzles like this.
 I don't need to read the entire file at once.
+
+## Day 3
+Task: Given a horizontally tiling map, count the trees you encounter on the slope down.
+
+Again, rather straightforward.
+3 steps to the right, wrap around if needed, 1 step down.
+I decided to implement the `FromStr` trait for my lines now.
+My plan with this years AoC was to learn rust a little bit better, so this is a nice step.
+
+For part two, I made my function a little more generic.
+Little oopsie happened when the multiplication resulted in an overflow.
+Guess 32 bits weren't enough.
+And then i copied it wrong and had to wait a minute before submitting again.
