@@ -36,3 +36,33 @@ For part two, I made my function a little more generic.
 Little oopsie happened when the multiplication resulted in an overflow.
 Guess 32 bits weren't enough.
 And then i copied it wrong and had to wait a minute before submitting again.
+
+## Day 4
+
+I spent way too much time on this:
+The Regex-Sledgehammer (for part one):
+
+```
+(?=(?:.(?!\n\n))+.byr)
+(?=(?:.(?!\n\n))+.iyr)
+(?=(?:.(?!\n\n))+.eyr)
+(?=(?:.(?!\n\n))+.hgt)
+(?=(?:.(?!\n\n))+.hcl)
+(?=(?:.(?!\n\n))+.ecl)
+(?=(?:.(?!\n\n))+.pid)
+.*?\n\n
+```
+
+For some reason I got an off by one error and got 209 matches instead of 208.
+Also my rust regex library doesn't support lookahead. Soooo...
+I wrote the one-liner myself :D
+
+Part two just seemed like a lot of effort.
+Though it probably integrates nicely with the regex....
+Anyway, can't be bothered.
+
+My actual solution for part two is also off by one.
+I don't know which one is wrong, and frankly, I don't care.
+This part two to me fealt more like work (being foced to doing tons of checks) rather than fun problem solving.
+
+So much for not being lazy :D
