@@ -38,7 +38,6 @@ Guess 32 bits weren't enough.
 And then i copied it wrong and had to wait a minute before submitting again.
 
 ## Day 4
-
 I spent way too much time on this:
 The Regex-Sledgehammer (for part one):
 
@@ -66,3 +65,19 @@ I don't know which one is wrong, and frankly, I don't care.
 This part two to me fealt more like work (being foced to doing tons of checks) rather than fun problem solving.
 
 So much for not being lazy :D
+
+Edit: I talked to a friend and I probably wrongly accepted a 10-digit pid.
+Either way, least favorite one so far, I won't bother fixing this (even though it's easy).
+
+## Day 5
+This one was fun!
+And it was fun, cause there was a super easy clean solution to this.
+Essentially, the seats are just weirdly encoded binary numbers.
+Every `F` and `L` encodes a `0` and every `B` and `R` encodes a `1`.
+Parse that, and return the highest number.
+
+Part 2 was also straightforward:
+All numbers are consecutive, find the first number that got skipped.
+
+I have a decently clean solution, can't complain, fun puzzle!
+Tomorrow I won't be home, so I'll do 2 days at once on monday!

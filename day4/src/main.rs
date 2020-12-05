@@ -137,10 +137,8 @@ fn main() {
 
         // Hair color
         if let Some(hcl) = passport.get("hcl") {
-            println!("hcl: {}", hcl);
             let re = Regex::new("#[0-9a-f]{6}").unwrap();
             if !re.is_match(hcl) {
-                println!("Invalid!");
                 continue;
             }
         }
