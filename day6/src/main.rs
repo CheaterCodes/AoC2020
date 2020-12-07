@@ -1,4 +1,4 @@
-use std::env;
+use std::{collections::HashSet, env};
 use std::fs::File;
 use std::io::BufReader;
 use std::io::prelude::*;
@@ -25,14 +25,12 @@ fn main() {
     let mut input = String::new();
     let _ = BufReader::new(file).read_to_string(&mut input);
 
-    // Parse seats
-    let mut seats: Vec<usize> = input.split('\n').map(|line| line.replace('F', "0").replace('B', "1").replace('L', "0").replace('R', "1")).map(|bits| usize::from_str_radix(&bits, 2).unwrap()).collect();
-    seats.sort();
+    // Parse answers
+    let groups: Vec<Vec<HashSet<char>>> = input.split("\n\n").map(|group| group.split("\n").map(|person| person.chars().collect()).collect()).collect();
+    let part1: usize = groups.iter().map(|group| group.iter().fold(group.first().unwrap().clone(), |first, second| first.union(second).copied().collect()).len()).sum();
 
-    println!("Lowest seat ID: {}", seats.first().unwrap());
-    println!("Highest seat ID: {}", seats.last().unwrap());
+    println!("{:?}", part1);
 
-    let first = seats.first().unwrap();
-    let my_seat = seats.iter().enumerate().find(|(index, seat)| index + first < **seat).unwrap().0;
-    println!("My seat ID: {}", my_seat);
+    let part2: usize = groups.iter().map(|group| group.iter().fold(group.first().unwrap().clone(), |first, second| first.intersection(second).copied().collect()).len()).sum();
+    println!("{:?}", part2);
 }

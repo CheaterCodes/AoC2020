@@ -81,3 +81,16 @@ All numbers are consecutive, find the first number that got skipped.
 
 I have a decently clean solution, can't complain, fun puzzle!
 Tomorrow I won't be home, so I'll do 2 days at once on monday!
+
+## Day 6
+Wasn't home for this one, so I'm a day late.
+I liked it!
+Thanks to the power of HashSets and unions/intersections it was rather straightforward again.
+
+## Day 7
+Wow!
+That one actually took me a bit.
+I knew what I wanted to do, bu I couldn't do it.
+Parsing the input was another one-liner (with some regex this time), but I didn't want to do recursion.
+Also I really wanted to avoid loops, although I assume those don't exist in the input.
+I'm quite happy with my solution, though I didn't bother with efficiency for part two at all.
