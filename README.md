@@ -94,3 +94,25 @@ I knew what I wanted to do, bu I couldn't do it.
 Parsing the input was another one-liner (with some regex this time), but I didn't want to do recursion.
 Also I really wanted to avoid loops, although I assume those don't exist in the input.
 I'm quite happy with my solution, though I didn't bother with efficiency for part two at all.
+
+## Day 8
+Part one was pretty basic again.
+I used a fancy map to keep track of the instructions already executed and can simply abort once I reach one.
+
+Part two was a bit more tricky.
+To be fair, brute forcing is viable and also what I ended up doing, but I was thinking about more efficient solutions.
+For example, backtracking from the last instruction to see where the chain breaks.
+But there were so many issues with that thought.
+
+I also helped my friend get started in rust for Advent of Code.
+That was a lot of fun, even though there were some struggles with installing the toolchain.
+
+## Day 9
+I loved this one!
+I spent most of my time trying to figure out an overly generic way of validating the preamble,
+before deciding to ditch all of that.
+Generics are fun, but I don't have enough time to spent an entire day on fixing my generics.
+
+Part two was great too! I went for the optimal O(n) solution.
+Learned some cool new iterator functions like `scan`.
+I enjoyed having a bit of a brain challenge and not just a coding challenge though.
