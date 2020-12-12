@@ -133,3 +133,12 @@ Not because it was hard, but because I tried to implement a proper grid data str
 I gave up after a day, and the current solution is decent.
 The `Vec<Vec<char>>` provides iterators and maps for me to use anyway.
 Maybe I'll try again another day.
+
+## Day 12
+I'm proud of myself!
+I implemented proper data structures, implemented methods on them and implemented some parsing traits.
+As a result, the final code is quite readable (in my opinion).
+I feel like I'm slowly getting the hang of this programming language!
+And that's wha I decide to use it in the first place.
+
+The actual challenge was not very challenging, but still fun.
