@@ -116,3 +116,20 @@ Generics are fun, but I don't have enough time to spent an entire day on fixing 
 Part two was great too! I went for the optimal O(n) solution.
 Learned some cool new iterator functions like `scan`.
 I enjoyed having a bit of a brain challenge and not just a coding challenge though.
+
+## Day 10
+Fun stuff!
+First time this year that brute force isn't a solution.
+Some form of dynamic programming is required.
+Easiest solution is probably just using a HashMap as a cache.
+I just used an array, which is probably a tiny bit faster.
+
+I want more like this!
+
+## Day 11
+Well...
+This one took me a while.
+Not because it was hard, but because I tried to implement a proper grid data structure with all iterator traits implemented etc.
+I gave up after a day, and the current solution is decent.
+The `Vec<Vec<char>>` provides iterators and maps for me to use anyway.
+Maybe I'll try again another day.
