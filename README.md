@@ -142,3 +142,16 @@ I feel like I'm slowly getting the hang of this programming language!
 And that's wha I decide to use it in the first place.
 
 The actual challenge was not very challenging, but still fun.
+
+## Day 13
+Part one was easy.
+Let's move on.
+
+Part two was fun!
+I knew that it boils down to remainder arithmetic, but I refused to look up the solution to this well known problem.
+The solution I eventually came up with is also available on Wikipedia as [Search by Sieving].
+
+I really enjoyed this fun challenge.
+Designing efficient algorithms is very fun.
+
+[Search by Sieving]: https://en.wikipedia.org/wiki/Chinese_remainder_theorem#Search_by_sieving
