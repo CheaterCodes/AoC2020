@@ -61,6 +61,9 @@ fn main() -> Result<(), Box<dyn Error>> {
         Complexity: O(n*m) where
             - n is the number of lines
             - m is the value of the biggest/average line
+
+        Possible Improvement:
+            The inner loop could probably be sped up by the extended euclidean algorithm
     */
 
     let line_and_offset: Vec<(usize, usize)> = intervals.iter().enumerate().filter_map(|(i, &line)| line.map(|line| (line as usize, ((line - (i as i32 % line)) % line) as usize))).collect();

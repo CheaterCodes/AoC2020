@@ -155,3 +155,10 @@ I really enjoyed this fun challenge.
 Designing efficient algorithms is very fun.
 
 [Search by Sieving]: https://en.wikipedia.org/wiki/Chinese_remainder_theorem#Search_by_sieving
+
+## Day 14
+Bit Operations!
+First time in rust for me.
+That being said, not very challenging.
+
+Next!
