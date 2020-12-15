@@ -162,3 +162,6 @@ First time in rust for me.
 That being said, not very challenging.
 
 Next!
+
+# Day 15
+Way too easy, especially part two. Next.
